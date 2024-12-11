@@ -117,6 +117,7 @@
   zip -r file.zip directory
   unzip file.zip
   ```
+- Note: `zip`/`unzip` packages need to be installed with the following command `sudo pacman -S zip unzip`
 
 ## 🚀 **Useful Shortcuts**
 
