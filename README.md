@@ -82,7 +82,14 @@
   ```bash
   nano file.txt
   ```
-
+- Note: If the file is in a high-rights level
+  ```bash
+  sudo [program] <file>
+  ```
+  Example:
+  ```bash
+  sudo vim /etc/conf.d/sensord
+  ```
 ## 📊 **Disk and Space Management**
 
 - `df` – View filesystem usage.  
