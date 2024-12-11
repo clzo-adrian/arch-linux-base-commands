@@ -52,6 +52,21 @@
   ```bash
   sudo pacman -S htop && htop
   ```
+- Note: If you want to enable or manage a service with systemd only locally(User only), you need to run one or more of this commands:
+  ```bash
+  systemctl --user start service # Start a service
+  systemctl --user stop service # Stop a service
+  systemctl --user enable service # Enable a service at startup
+  systemctl --user status sevice # Check the status of a service
+  ```
+- Syntaxis of systemctl command:
+  ```bash
+  systemctl --option [command] [service]
+  ```
+  If it is globally
+  ```bash
+  sudo systemctl --option [command] [service]
+  ```
 
 ## 📜 **File Viewing and Editing**
 
