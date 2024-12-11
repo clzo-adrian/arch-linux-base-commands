@@ -6,6 +6,9 @@
   ```bash
   ls -la  # List with details and hidden files
   ```
+  `-l` - Long items properties display.
+  `-a` - Show hidden files(., ..)
+  `-la` - The 2 previous commands merged.
 - `cd` – Change directory.  
   ```bash
   cd /desired/path
