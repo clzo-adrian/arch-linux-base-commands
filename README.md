@@ -106,7 +106,13 @@
   ```
 
 ## 🌐 **Internet Connection**
-
+- Connecting to internet
+  For Ethernet `dhcpcd` daemon will stablish the connection.
+  For WiFi, you can use
+  `iwd` package
+  or `networkmanager` package
+  - Who can be installed with `sudo pacman -S iwd` or `sudo pacman -S networkmanager`
+  - And activated with systemd(systemctl) 
 - `ping` – Test connectivity to an address.  
   ```bash
   ping -c 4 google.com
