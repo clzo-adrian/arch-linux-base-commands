@@ -156,3 +156,7 @@
   ```bash
   sudo !!
   ```
+## Recommended packages
+Xscreensaver: `sudo pacman -S xscreensaver` Screensaver
+Conky: `sudo pacman -S conky` Desktop Widgets
+bpytop: `sudo pacman -S bpytop` Better htop
